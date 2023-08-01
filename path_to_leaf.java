@@ -29,7 +29,7 @@ class Solution {
         if(root!=null && root.left==null && root.right==null){
             
            arr.add(s+root.val);
-            return;
+            return; 
         }
         if(root!=null){
         trav(root.left,arr,s+root.val+"->");
